@@ -32,5 +32,15 @@ atom-text-editor .cursor {
 }
 
 atom-text-editor .highlights .highlight-selected .region {
-    border-color: red;
+  border-color: darkRed;
+}
+
+/* The rule for normal highlights */
+.minimap .highlight-selected {
+  background: darkRed;
+}
+
+/* The rule for selected highlights */
+.minimap .highlight-selected.selected {
+  background: blue;
 }
