@@ -1,0 +1,23 @@
+"*":
+  core:
+    disabledPackages: [
+      "symbols-view"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-light-ui"
+      "solarized-light-syntax"
+    ]
+  editor:
+    fontSize: 24
+  "exception-reporting":
+    userId: "817d3758-e27f-4a48-bc1b-2b27535c8b58"
+  "git-plus":
+    diffs: {}
+    general:
+      openInPane: false
+      splitPane: "Right"
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
