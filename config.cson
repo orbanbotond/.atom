@@ -17,6 +17,9 @@
     general:
       openInPane: false
       splitPane: "Right"
+  "incremental-search":
+    instantSearch: true
+    keepOptionsAfterSearch: false
   minimap:
     plugins:
       "highlight-selected": true
