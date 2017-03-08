@@ -31,8 +31,14 @@ atom-text-editor .cursor {
   // border-color: red;
 }
 
-atom-text-editor .highlights .highlight-selected .region {
+atom-text-editor .highlights .highlight.selection .region {
   border-color: darkRed;
+  z-index: 9;
+  background: transparent;
+}
+
+atom-text-editor .highlights .highlight-selected .region {
+  border-color: darkGreen;
 }
 
 /* The rule for normal highlights */
@@ -42,7 +48,7 @@ atom-text-editor .highlights .highlight-selected .region {
 
 .highlights .region{
   border-width: 1px;
-  border-color: darkred;
+  border-color: darkRed;
   border-style: solid;
 }
 
